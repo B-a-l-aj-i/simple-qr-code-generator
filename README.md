@@ -13,7 +13,7 @@ npm install simple-qr-code-generator
 And the use it in your code like this
 
 ```JavaScript
-const { generateQRCode } = require('qr-code-generator');
+import { generateQRCode, saveQRCode } from 'simple-qr-code-generator';
 
 // Generate QR Code
 const image = generateQRCode('Hello, World!');
